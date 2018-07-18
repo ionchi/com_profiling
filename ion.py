@@ -55,10 +55,10 @@ if __name__ == "__main__":
                                 noSimm += 1
             dataSet.write(str(i.oid) + "," + str(not_friends / 2) + "," + str(noSimm) + "," + str(len(i.nodes)) + "\n")
             # with open(resultFile, "a") as output:
-            #     output.write("clique_id: " + str(i.oid)
-            #                  + " - # amicizie mancanti " + str(not_friends)
-            #                  + " Simmetrie mancanti: "+str(noSimm)
-            #                  + " Numero nodi: " + str(len(i.nodes))
-            #                  + "\n")
+            #             #     output.write("clique_id: " + str(i.oid)
+            #             #                  + " - # amicizie mancanti " + str(not_friends)
+            #             #                  + " Simmetrie mancanti: "+str(noSimm)
+            #             #                  + " Numero nodi: " + str(len(i.nodes))
+            #             #                  + "\n")
     dataSet.close()
     spark.stop()
