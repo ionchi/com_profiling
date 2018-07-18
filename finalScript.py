@@ -91,11 +91,11 @@ if __name__ == "__main__":
                     semantico = freq * NORMAL_1
                 else:
                     semantico = freq * NORMAL_2
-
-        if not_friends == 0:
+        mancanti = not_friends//2
+        if mancanti == 0:
             topologico = 1
         else:
-            if not_friends == 1:
+            if mancanti == 1:
                 topologico = 0.031
             else:
                 topologico = 0
