@@ -12,7 +12,7 @@ MONGO_HOST = 'localhost'
 MONGO_PORT = 27017
 
 DATABASE = 'bigdata_db'
-OUTPUT_FILE = 'helpers/results.csv'
+OUTPUT_FILE = 'helpers/results_example.csv'
 
 if __name__ == "__main__":
     if os.path.exists(OUTPUT_FILE):
